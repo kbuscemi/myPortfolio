@@ -1,0 +1,19 @@
+a.brand-logo {
+    padding-left: 30px;
+    font-family: 'Nixie One', cursive;
+}
+
+.right .hide-on-med-and-down {
+    padding-right: 37px;
+}
+
+nav ul a {
+    font-size: 19px;
+    font-family: 'Nixie One', cursive;
+}
+
+nav .nav-wrapper {
+    background-color: #7F7278;
+    height: 113%;
+    padding-top: 4px;
+}

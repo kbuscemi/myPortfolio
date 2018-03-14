@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.col.s6.picture {
+    padding-right: 75px;
+}
+
+.border {
+    display: flex;
+    flex-direction: row;
+    width: 61vw;
+    box-shadow: 8px 9px 17px;
+}
+
+.col.s6.aboutMe {
+    overflow-wrap: break-word;
+}
