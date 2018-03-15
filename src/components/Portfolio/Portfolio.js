@@ -1,6 +1,6 @@
 import React from 'react';
 import './Portfolio.css'
-import { Card, CardTitle, MediaBox } from 'react-materialize'
+import { MediaBox } from 'react-materialize'
 
 const Portfolio = () => {
     return (
@@ -22,7 +22,7 @@ const Portfolio = () => {
                            and Google Places API, users are able to look at the map and see which airports they will be flying to and from. 
                            <br />
                            <br />
-                           <a href='https://flight-planner.herokuapp.com/'>View the project here!</a>
+                           <a href='https://flight-planner.herokuapp.com/' target='blank'>View the project here!</a>
                         </p>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const Portfolio = () => {
                            Spotify's API integrated into the application musicians can search Spotify's database to locate their song. 
                            <br />
                            <br />
-                           <a href='http://imusicdb.herokuapp.com'>View the project here!</a>
+                           <a href='http://imusicdb.herokuapp.com' target='blank'>View the project here!</a>
                         </p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const Portfolio = () => {
                     <div className='card3'>
                         <p className='title'>Read&nbsp;with&nbsp;Me</p>
                         <p className='tech'>Ruby • Ruby on Rails • HTML • CSS</p>
-                        <MediaBox src='https://i.imgur.com/7HUyxCq.png' caption="Read with Me" width="425"/>
+                        <MediaBox src='https://i.imgur.com/rdWD9Vs.png' caption="Read with Me" width="425"/>
                     </div>
                     <div className='context3'>
                         <p>Read with Me is a full stack Ruby application that was developed so users can create reading lists and add
@@ -55,7 +55,7 @@ const Portfolio = () => {
                            list!  
                            <br />
                            <br />
-                           <a href='https://read-w-mee.herokuapp.com/'>View the project here!</a>
+                           <a href='https://read-w-mee.herokuapp.com/' target='blank'>View the project here!</a>
                         </p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const Portfolio = () => {
                         <p>Mancala is a web browser game modeled after the original Mancala game that is said to have been created around 700 AD.
                            <br />
                            <br />
-                           <a href='https://kbuscemi.github.io/Mancala/'>View the project here!</a> 
+                           <a href='https://kbuscemi.github.io/Mancala/' target='blank'>View the project here!</a> 
                         </p>
                     </div>
                 </div>
