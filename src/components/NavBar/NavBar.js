@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavBar.css'
-import { Navbar, NavItem } from 'react-materialize';
+// import { Navbar, NavItem } from 'react-materialize';
 import {Link} from 'react-router-dom';
 
 const NavBar = () => {
@@ -23,13 +23,13 @@ const NavBar = () => {
                 <a href='/' class='brand-logo'>Kaylee Buscemi</a>
               <ul class='right hide-on-med-and-down'>
                 <li>
-                  <a href='/'>Home</a>
+                  <Link to='/'>Home</Link>
                 </li>
                 <li>
-                  <a href='/portfolio'>Portfolio</a>
+                  <Link to='/portfolio'>Portfolio</Link>
                 </li>
                 <li>
-                  <a href='/about'>About</a>
+                  <Link to='/about'>About</Link>
                 </li>
               </ul>
               </div>
