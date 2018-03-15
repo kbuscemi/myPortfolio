@@ -6,11 +6,6 @@ import {Link} from 'react-router-dom';
 const NavBar = () => {
     return (
         <div>
-          {/* <ul className='hide-on-med-and-down'>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/about'>About</Link></li>
-            <li><Link to='/portfolio'>Portfolio</Link></li>
-          </ul> */}
           {/* <Navbar brand='Kaylee Buscemi' right>
             <NavItem href='/'>Home</NavItem>
             <NavItem href='/portfolio'>Portfolio</NavItem>
