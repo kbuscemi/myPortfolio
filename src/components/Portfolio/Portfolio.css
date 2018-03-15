@@ -1,6 +1,19 @@
+body {
+    background-color: #FBFBFC;
+}
+
 .cardCarousel {
     background-color: yellow;
 }
+
+.heading {
+    margin-top: 41px;
+    margin-left: 58px;
+    font-family: 'Nixie One', cursive;
+    font-weight: 700;
+}
+
+
 
 .cardContainer {
     display: flex;
@@ -9,7 +22,6 @@
 }
 
 .row1, .row2, .row3, .row4 {
-    border: 1px black solid;
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -17,20 +29,61 @@
     margin-bottom: 42px;
     
 }
-.card1, .card2 {
-    background-color: pink;
-    border: 1px blue solid;
+.card1, .card2, .card3, .card4 {
     width: 50%
 }
 
-.context1, .context2 {
-    border: 1px green solid;
-    width: 40%;
-    padding-left: 16px;
+.context1, .context2, .context3, .context4 {
+    /* border: 1px green solid; */
+    width: 64%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 13px rgba(0,0,0,0.6);
+}
+
+.context1, .context2, .context4 {
     margin-left: 25px;
 }
+
+.context1 {
+    margin-top: 65px;
+}
+
+.context2 {
+    margin-top: 74px;
+}
+
+.context3 {
+    margin: 188px 0 46px 0;
+    margin-left: 10px;
+}
+
+.context4 {
+    margin-top: 118px;
+}
+
 
 .card .card-content {
     padding: 11px;
 }
 
+.materialboxed.initialized.flight {
+    border-radius: 8%;
+}
+
+.title {
+    margin-bottom: 9px;
+    font-size: 22px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.title, .tech {
+    margin-left: 14px;
+}
+
+.tech, p {
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Lato', sans-serif;
+}
