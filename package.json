@@ -18,7 +18,7 @@
     "predeploy": "npm run build",
     "deploy": "mv build/* ./* && rmdir build"
   },
-  "homepage": "https://kbuscemi.github.io/myPortfolio",
+  "homepage": "http://kbuscemi.github.io/myPortfolio",
   "devDependencies": {
     "gh-pages": "^1.1.0"
   }

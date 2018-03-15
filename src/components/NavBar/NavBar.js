@@ -7,9 +7,8 @@ const NavBar = () => {
         <div>
           <Navbar brand='Kaylee Buscemi' right>
             <NavItem href='/'>Home</NavItem>
-            <NavItem href='/about'>About</NavItem>
             <NavItem href='/Portfolio'>Portfolio</NavItem>
-            <NavItem href='/contact'>Contact</NavItem>
+            <NavItem href='/about'>About</NavItem>
           </Navbar>
         </div>
 

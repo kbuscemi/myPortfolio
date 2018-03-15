@@ -22,7 +22,7 @@ const Portfolio = () => {
                            and Google Places API, users are able to look at the map and see which airports they will be flying to and from. 
                            <br />
                            <br />
-                           <a href='https://flight-planner.herokuapp.com/' target='blank'>View the project here!</a>
+                           <a href='https://flight-planner.herokuapp.com/' target='blank'>View the project!</a> • <a href='https://github.com/kbuscemi/flight-planner' target='blank'>View the Code!</a> 
                         </p>
                     </div>
                 </div>
