@@ -1,17 +1,10 @@
 import React from 'react';
 import './NavBar.css'
-// import { Navbar, NavItem } from 'react-materialize';
 import {Link} from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <div>
-          {/* <Navbar brand='Kaylee Buscemi' right>
-            <NavItem href='/'>Home</NavItem>
-            <NavItem href='/portfolio'>Portfolio</NavItem>
-            <NavItem href='/about'>About</NavItem>
-          </Navbar> */}
-
           <nav>
             <div class='nav-wrapper'>
               <div class='col s12'>
@@ -30,9 +23,7 @@ const NavBar = () => {
               </div>
             </div>
           </nav>
-
         </div>
-
     )
 }
 
