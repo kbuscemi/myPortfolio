@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className='container1'>
             <div className='home'>
-            <Parallax imageSrc='https://i.imgur.com/i6whKRM.png'/>
+            <Parallax imageSrc='https://i.imgur.com/9rvgXw8.png'/>
             <div className="section white">
                 <div className="row container">
                 <h2 className="header">K a y l e e &nbsp; B u s c e m i</h2>

@@ -1,5 +1,36 @@
-.container3 {
-    background-color: lightgrey;
-    width: 100vw;
-    height: 70vh;
+.cardCarousel {
+    background-color: yellow;
 }
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row1, .row2, .row3, .row4 {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-top: 32px;
+    margin-bottom: 42px;
+    
+}
+.card1, .card2 {
+    background-color: pink;
+    border: 1px blue solid;
+    width: 50%
+}
+
+.context1, .context2 {
+    border: 1px green solid;
+    width: 40%;
+    padding-left: 16px;
+    margin-left: 25px;
+}
+
+.card .card-content {
+    padding: 11px;
+}
+
