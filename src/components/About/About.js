@@ -17,8 +17,9 @@ const About = () => {
                         Prior to becoming a web developer I was working in the event industry as a Community Manager. 
                         When I first started developing web applications I looked at it as more of a hobby but it quickly 
                         became a passion of mine. It’s a rewarding experience not only brining an idea to life but having 
-                        the knowledge to resolve any bug you encounter along the way! 
-                        
+                        the knowledge to resolve any bug you encounter along the way!
+                        <br/>
+                        <br/>
                         When I'm not developing I'm either reading, exploring nature, or traveling the world. It was during my backpacking trip
                         through Europe and Southeast Aisa that I was able to capute the pictures you see on my homepage!
                     </span>

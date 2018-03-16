@@ -22,4 +22,5 @@ body {
 
 .col.s6.aboutMe {
     overflow-wrap: break-word;
+    padding-right: 20px;
 }
