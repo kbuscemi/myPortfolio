@@ -6,10 +6,10 @@ const NavBar = () => {
     return (
         <div>
           <nav>
-            <div class='nav-wrapper'>
-              <div class='col s12'>
-                <a href='/' class='brand-logo'>Kaylee Buscemi</a>
-              <ul class='right hide-on-med-and-down'>
+            <div className='nav-wrapper'>
+              <div className='col s12'>
+                <a href='/' className='brand-logo'>Kaylee Buscemi</a>
+              <ul className='right hide-on-med-and-down'>
                 <li>
                   <Link to='/'>Home</Link>
                 </li>

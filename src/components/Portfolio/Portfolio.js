@@ -1,12 +1,16 @@
 import React from 'react';
-import './Portfolio.css'
-import { MediaBox } from 'react-materialize'
+import './Portfolio.css';
+import { MediaBox } from 'react-materialize';
+import { Link } from 'react-router-dom';
+
 
 const Portfolio = () => {
     return (
         <div className='container3'>
-            <div className='heading'>
-                <h4>Portfolio</h4>
+            <div className='headingContainer'>
+                <div className='heading'>
+                    <h4>Portfolio</h4>
+                </div>
             </div>
             <div className='cardContainer'>
                 <div className='row1'>
@@ -74,7 +78,6 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 }

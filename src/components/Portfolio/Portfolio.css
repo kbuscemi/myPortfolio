@@ -7,13 +7,19 @@ body {
 }
 
 .heading {
-    margin-top: 41px;
     margin-left: 58px;
+    margin-top: 41px;
+}
+
+.headingContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
     font-family: 'Nixie One', cursive;
     font-weight: 700;
 }
-
-
 
 .cardContainer {
     display: flex;
@@ -34,7 +40,6 @@ body {
 }
 
 .context1, .context2, .context3, .context4 {
-    /* border: 1px green solid; */
     width: 64%;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
@@ -64,7 +69,6 @@ body {
     margin-top: 118px;
 }
 
-
 .card .card-content {
     padding: 11px;
 }
@@ -84,6 +88,5 @@ body {
 }
 
 .tech, p {
-    /* font-family: 'Roboto Mono', monospace; */
     font-family: 'Lato', sans-serif;
 }
