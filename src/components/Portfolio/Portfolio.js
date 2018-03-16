@@ -38,7 +38,7 @@ const Portfolio = () => {
                            Spotify's API integrated into the application musicians can search Spotify's database to locate their song. 
                            <br />
                            <br />
-                           <a href='http://imusicdb.herokuapp.com' target='blank'>View the project here!</a>
+                           <a href='http://imusicdb.herokuapp.com' target='blank'>View the project!</a>
                         </p>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Portfolio = () => {
                            list!  
                            <br />
                            <br />
-                           <a href='https://read-w-mee.herokuapp.com/' target='blank'>View the project here!</a>
+                           <a href='https://read-w-mee.herokuapp.com/' target='blank'>View the project!</a> • <a href='https://github.com/kbuscemi/Read_With_Me' target='blank'>View the Code!</a>
                         </p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const Portfolio = () => {
                         <p>Mancala is a web browser game modeled after the original Mancala game that is said to have been created around 700 AD.
                            <br />
                            <br />
-                           <a href='https://kbuscemi.github.io/Mancala/' target='blank'>View the project here!</a> 
+                           <a href='https://kbuscemi.github.io/Mancala/' target='blank'>View the project!</a> • <a href='https://github.com/kbuscemi/Mancala' target='blank'>View the Code!</a>
                         </p>
                     </div>
                 </div>
