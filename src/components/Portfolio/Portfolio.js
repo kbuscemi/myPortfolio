@@ -1,7 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
 import { MediaBox } from 'react-materialize';
-import { Link } from 'react-router-dom';
 
 
 const Portfolio = () => {
