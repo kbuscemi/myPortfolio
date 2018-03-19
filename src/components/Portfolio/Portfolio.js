@@ -41,7 +41,7 @@ const Portfolio = () => {
                            Spotify's API integrated into the application musicians can search Spotify's database to locate their song. 
                            <br />
                            <br />
-                           <a href='http://imusicdb.herokuapp.com' target='blank'>View the project!</a>
+                           <a href='http://imusicdb.herokuapp.com' target='blank'>View the project!</a> • <a href='https://github.com/kbuscemi/music-db' target='blank'>View the Code!</a> 
                         </p>
                     </div>
                 </div>
