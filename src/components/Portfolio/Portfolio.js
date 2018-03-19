@@ -19,7 +19,7 @@ const Portfolio = () => {
                         <MediaBox src='https://i.imgur.com/LllyjgM.png' caption="Flight Tracker" width="425" className='flight'/>
                     </div>
                     <div className='context1'>
-                        <p>Flight Tracker is an application for pilots to have a way of submitting their upcoming flight plans for reviewal. It's imperative pilots
+                        <p>Flight Tracker is an application for pilots to have a way of submitting their upcoming flight plans to be reviewed. It's imperative pilots
                            obtain clearance for a particular flight route prior to taking off and when there are multiple flights to keep track off, it can become quite 
                            confusing! This application is a simple yet detailed application that allows users to submit and view their upcoming flights. Consuming Google Maps 
                            and Google Places API, users are able to look at the map and see which airports they will be flying to and from. 
@@ -36,7 +36,7 @@ const Portfolio = () => {
                         <MediaBox src='https://i.imgur.com/1jBXc7C.png' caption="Music DB" width="425"/> 
                     </div>
                     <div className='context2'>
-                        <p>Music DB is an easy to use web application for musicians to be able to add any track or albumn they were apart of to their profile.
+                        <p>Music DB is an easy to use web application for musicians to be able to add any track or album they were apart of to their profile.
                            Acting as the IMDB but for the music industry Music DB showcases every single individual who helped bring a song to life! With 
                            Spotify's API integrated into the application musicians can search Spotify's database to locate their song. 
                            <br />
