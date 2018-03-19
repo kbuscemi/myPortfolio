@@ -30,6 +30,7 @@ const About = () => {
                         <div className='icons'>
                             <a href='https://github.com/kbuscemi' target='blank'><img src="https://i.imgur.com/Qk712y6.png" alt='github' /></a>
                             <a href='https://www.linkedin.com/in/kayleebuscemi/' target='blank'><img src="https://i.imgur.com/NSSXCPb.png" alt='linkedin' className='linkedin'/></a>
+                            <span className='email'>Email: Kaylee.Buscemi@gmail.com</span>
                         </div>
                     </div>
                 </div>
