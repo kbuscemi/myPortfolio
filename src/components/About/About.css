@@ -6,11 +6,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 115px;
 }
 
 .col.s6.picture {
-    padding-right: 75px;
+    padding-right: 28px;
 }
 
 .border {
@@ -18,7 +18,7 @@ body {
     flex-direction: row;
     width: 61vw;
     box-shadow: 8px 9px 17px;
-    height: 74vh;
+    max-height: 74vh;
 }
 
 .col.s6.aboutMe {
@@ -44,7 +44,17 @@ h3, span {
 
 /* Mobile Formatting */
 
-@media only screen and (min-width: 400px) and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
+
+    body .myPic {
+        width: 75vw;
+        height: 82vh;
+    }
+
+    body .about {
+        margin-top: 40px;
+    }
+
     body .col.s6.picture {
         padding: 0;
         width: 10vw;

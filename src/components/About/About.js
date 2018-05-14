@@ -10,7 +10,7 @@ const About = () => {
              <div className='border'>
                 <div className='col s6 picture'>
                     <div className='imgPic'>
-                    <img src="https://i.imgur.com/imOPJjP.png" alt='myPic' />
+                    <img src="https://i.imgur.com/imOPJjP.png" alt='myPic' className='myPic' />
                     </div>
                 </div>
                 <div className='col s6 aboutMe'>
