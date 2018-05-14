@@ -23,14 +23,14 @@ const About = () => {
                         When I'm not coding, I'm either out in the wilderness or at a cafe somewhere reading a book.
                         <br/>
                         <br/>
-                        If you would like to get in touch feel free to contact me
+                        If you would like to get in touch, feel free to contact me.
                     </span>
                         <br/>
                         <div>
                         <div className='icons'>
                             <a href='https://github.com/kbuscemi' target='blank'><img src="https://i.imgur.com/Qk712y6.png" alt='github' className='github'/></a>
                             <a href='https://www.linkedin.com/in/kayleebuscemi/' target='blank'><img src="https://i.imgur.com/NSSXCPb.png" alt='linkedin' className='linkedin'/></a>
-                            <span className='email'>Email: Kaylee.Buscemi@gmail.com</span>
+                            <span className='email'>email: kaylee.buscemi@gmail.com</span>
                         </div>
                     </div>
                 </div>
