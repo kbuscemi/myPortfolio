@@ -23,6 +23,10 @@
     text-align: center;
 }
 
+.text, .viewBtn {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
 .boldName {
     color: white;
 }
@@ -49,3 +53,17 @@ a {
     display: inline-block;
 }
 
+/* Mobile Formatting */
+
+@media only screen and (min-width: 400px) and (max-width: 720px) {
+    
+    body .main > .text {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    body .main {
+        top: 130px;
+        right: 10px;
+    }
+}

@@ -15,22 +15,20 @@ const About = () => {
                 </div>
                 <div className='col s6 aboutMe'>
                     <h3>About Me</h3>
-                    <span>I’m a full stack web developer working primarily with MERN stack and JavaScript. 
-                        Prior to becoming a web developer I was working in the event industry as a Community Manager. 
-                        When I first started developing web applications I looked at it as more of a hobby but it quickly 
-                        became a passion of mine. Currently I am working on building another full stack MERN application that replicates 
-                        a typical ecommerce website.
+                    <span>As a web developer I strive to build immersive and intuitive web applications. Always seeking out 
+                        opportunities and challenges that are meaningful to me, it is my goal to work on web designs that will 
+                        make an impact.
                         <br/>
                         <br/>
-                        When I'm not developing I'm either reading, exploring nature, or traveling the world. It was during my backpacking trip
-                        through Europe and Southeast Asia that I was able to capture the pictures you see on my homepage!
+                        When I'm not coding, I'm either out in the wilderness or at a cafe somewhere reading a book.
                         <br/>
                         <br/>
-                        If you would like to get in touch or have any questions feel free to contact me!
+                        If you would like to get in touch feel free to contact me
                     </span>
+                        <br/>
                         <div>
                         <div className='icons'>
-                            <a href='https://github.com/kbuscemi' target='blank'><img src="https://i.imgur.com/Qk712y6.png" alt='github' /></a>
+                            <a href='https://github.com/kbuscemi' target='blank'><img src="https://i.imgur.com/Qk712y6.png" alt='github' className='github'/></a>
                             <a href='https://www.linkedin.com/in/kayleebuscemi/' target='blank'><img src="https://i.imgur.com/NSSXCPb.png" alt='linkedin' className='linkedin'/></a>
                             <span className='email'>Email: Kaylee.Buscemi@gmail.com</span>
                         </div>

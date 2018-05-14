@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavBar.css'
 import {Link} from 'react-router-dom';
+import MediaQuery from 'react-responsive';
 
 const NavBar = () => {
     return (
@@ -8,16 +9,16 @@ const NavBar = () => {
           <nav>
             <div className='nav-wrapper'>
               <div className='col s12'>
-                {/* <a href='/' className='brand-logo'>Kaylee Buscemi</a> */}
+                <a href='/' className='brand-logo'>KB</a>
               <ul className='right hide-on-med-and-down'>
                 <li>
-                  <Link to='/'>Home</Link>
+                  <Link to='/'>HOME</Link>
                 </li>
                 <li>
-                  <Link to='/portfolio'>Portfolio</Link>
+                  <Link to='/portfolio'>PORTFOLIO</Link>
                 </li>
                 <li>
-                  <Link to='/about'>About</Link>
+                  <Link to='/about'>ABOUT</Link>
                 </li>
               </ul>
               </div>

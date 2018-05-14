@@ -1,6 +1,6 @@
 a.brand-logo {
     padding-left: 30px;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .right .hide-on-med-and-down {
@@ -9,11 +9,29 @@ a.brand-logo {
 
 nav ul a {
     font-size: 19px;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav .nav-wrapper {
-    background-color: #7F7278;
+    background-color: black;
     height: 113%;
     padding-top: 4px;
 }
+
+/* Mobile Formatting */
+
+@media only screen and (min-width: 400px) and (max-width: 720px) {
+    body nav > .nav-wrapper {
+       width: 100%;
+    }
+
+    body .brand-logo {
+        font-size: 20px;
+        padding: 0px;
+        right: 0px;
+        margin: 0px;
+    }
+}
+
+
+
