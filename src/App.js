@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -14,7 +13,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
         <Switch>
           <Route exact path='/' render={() =>
             <Home />

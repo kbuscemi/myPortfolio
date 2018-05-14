@@ -1,28 +1,51 @@
-/* .container1 {
-    background-color:lightgreen;
-    width: 100vw;
-    height: 70vh;
-} */
-
-.section {
-    margin: 8px;
+.container {
+    background: url('https://i.imgur.com/MsIPDMf.jpg') no-repeat center fixed;
+    min-width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
 }
 
-.grey-text.text-darken-3.lighten-3 {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
+.main {
+    flex-direction: column; 
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    right: 176px;
+    top: 180px;
 }
 
-.grey-text.text-darken-3.lighten-3, h2.header {
+.text {
+    font-size: 32pt;
+    line-height: 36pt;
     text-align: center;
 }
 
-h2.header {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 700;
-    font-size: 70px;
+.boldName {
+    color: white;
 }
 
-.parallax-container {
-    width: 100%;
+.viewBtn {
+    border: 2px solid black;
+    margin-top: 14px;
+    padding: 10px 21px;
+    font-size: 21px;
+    cursor: pointer;
 }
+
+a {
+    color: black;
+}
+
+.material-icons {
+    display: none;
+    font-size: 18px;
+    padding-left: 9px;
+}
+
+.viewBtn:hover i.material-icons {
+    display: inline-block;
+}
+

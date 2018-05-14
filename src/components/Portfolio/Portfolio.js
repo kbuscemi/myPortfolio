@@ -1,11 +1,13 @@
 import React from 'react';
 import './Portfolio.css';
 import { MediaBox } from 'react-materialize';
+import NavBar from '../NavBar/NavBar';
 
 
 const Portfolio = () => {
     return (
         <div className='container3'>
+          <NavBar />
             <div className='headingContainer'>
                 <div className='heading'>
                     <h4>Portfolio</h4>

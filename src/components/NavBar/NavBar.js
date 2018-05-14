@@ -8,7 +8,7 @@ const NavBar = () => {
           <nav>
             <div className='nav-wrapper'>
               <div className='col s12'>
-                <a href='/' className='brand-logo'>Kaylee Buscemi</a>
+                {/* <a href='/' className='brand-logo'>Kaylee Buscemi</a> */}
               <ul className='right hide-on-med-and-down'>
                 <li>
                   <Link to='/'>Home</Link>
