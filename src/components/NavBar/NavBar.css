@@ -13,7 +13,12 @@ nav ul a {
 }
 
 nav .nav-wrapper {
-    background-color: #13172A;
+    /* background-color: #13172A; */
+    /* background-color: #1D3557; */
+    /* background-color: #1F0812; */
+    /* background-color: #BAA898; */
+    /* background-color: #AA998B; */
+    background-color: #182C48;
     height: 113%;
     padding-top: 4px;
 }

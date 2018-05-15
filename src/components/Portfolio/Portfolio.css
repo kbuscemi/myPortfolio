@@ -60,3 +60,17 @@ h3 {
 p {
     margin-top: 40px;
 }
+
+.fa.fa-github {
+    font-size: 40px;
+}
+
+.fa.fa-external-link {
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.fa.fa-github:hover, .fa.fa-external-link:hover {
+    opacity: .6;
+}
