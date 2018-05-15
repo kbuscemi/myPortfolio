@@ -1,97 +1,62 @@
 body {
-    background-color: #FBFBFC;
+    background-color: #FAFBFB;
 }
 
-.cardCarousel {
-    background-color: yellow;
+h3 {
+    text-align: center;
 }
 
-.heading {
-    margin-left: 58px;
-    margin-top: 41px;
-}
-
-.headingContainer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.heading {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
-
-.cardContainer {
+.wrapper {
     display: flex;
     flex-direction: column;
+}
+
+.wrapper, .top {
+    justify-content: center;
     align-items: center;
+
+}
+.top {
+    margin-top: 14px;
+    top: 15px;
 }
 
-.row1, .row2, .row3, .row4 {
-    display: flex;
-    flex-direction: row;
-    width: 60%;
-    margin-top: 32px;
-    margin-bottom: 42px;
-    
-}
-.card1, .card2, .card3, .card4 {
-    width: 50%
+.bottom {
+    top: 40px;
 }
 
-.context1, .context2, .context3, .context4 {
-    width: 64%;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    -o-box-shadow: 0 0 13px rgba(0,0,0,0.6);
+.top, .bottom {
+    display: inherit;
+    position: relative;
 }
 
-.context1, .context2, .context4 {
-    margin-left: 25px;
+.card > .card-content {
+    padding: 14px 0 5px 22px;    
 }
 
-.context1 {
-    margin-top: 65px;
+.boxOne, .boxTwo, .boxThree, .boxFour {
+    padding: 0 10px 0 10px;
+    margin: 0 15px 0 10px;
+    opacity: 1;        
 }
 
-.context2 {
-    margin-top: 74px;
+.material-icons.right {
+    margin-right: 15px;
+    font-size: 25px;
 }
 
-.context3 {
-    margin: 188px 0 46px 0;
-    margin-left: 10px;
+.material-icons.right:hover {
+    opacity: .6;
 }
 
-.context4 {
-    margin-top: 118px;
+.activator {
+    padding: 10px 10px 0 10px;
 }
 
-.card .card-content {
-    padding: 11px;
-}
-
-.materialboxed.initialized.flight {
-    border-radius: 8%;
-    padding-right: 14px;
-}
-
-.title {
-    margin-bottom: 9px;
-    font-size: 22px;
-    font-family: 'Lato', sans-serif;
-}
-
-.title, .tech {
-    margin-left: 14px;
-}
-
-.tech, p {
+.card-title.grey-text.text-darken-4.activator, p, h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-.materialboxed.initialized {
-    padding-right: 14px;
+p {
+    margin-top: 40px;
 }

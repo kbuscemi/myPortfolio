@@ -12,7 +12,7 @@ const Home = () => {
                 </div>
                 <div className='viewBtn'>
                     <Link to='/portfolio'>View My Work</Link>
-                    <i className='material-icons'>arrow_forward_ios</i>
+                    <i className='material-icons arrow'>arrow_forward_ios</i>
                 </div>
             </div>
         </div>

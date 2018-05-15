@@ -43,13 +43,13 @@ a {
     color: black;
 }
 
-.material-icons {
+.arrow {
     display: none;
     font-size: 18px;
     padding-left: 9px;
 }
 
-.viewBtn:hover i.material-icons {
+.viewBtn:hover i.arrow {
     display: inline-block;
 }
 
