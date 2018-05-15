@@ -11,8 +11,10 @@ const Home = () => {
                     I'm a front-end web developer.
                 </div>
                 <div className='viewBtn'>
-                    <Link to='/portfolio'>View My Work</Link>
-                    <i className='material-icons arrow'>arrow_forward_ios</i>
+                    <Link to='/portfolio'>
+                        View My Work
+                        <i className='material-icons arrow'>arrow_forward_ios</i>
+                    </Link>
                 </div>
             </div>
         </div>

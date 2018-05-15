@@ -28,8 +28,8 @@ const About = () => {
                         <br/>
                         <div>
                         <div className='icons'>
-                            <a href='https://github.com/kbuscemi' target='blank'><img src="https://i.imgur.com/Qk712y6.png" alt='github' className='github'/></a>
-                            <a href='https://www.linkedin.com/in/kayleebuscemi/' target='blank'><img src="https://i.imgur.com/NSSXCPb.png" alt='linkedin' className='linkedin'/></a>
+                            <a href='https://github.com/kbuscemi' target='blank'><i className="fa fa-github github"></i></a>
+                            <a href='https://www.linkedin.com/in/kayleebuscemi/' target='blank'><i className="fa fa-linkedin-square linkedin"></i></a>
                             <span className='email'>email: kaylee.buscemi@gmail.com</span>
                         </div>
                     </div>

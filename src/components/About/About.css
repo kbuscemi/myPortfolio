@@ -26,16 +26,24 @@ body {
     padding-right: 20px;
 }
 
-.linkedin {
-    margin-left: 13px;
-}
-
 .email {
     margin-left: 20px;
 }
 
+.github {
+    margin-right: 7px;
+}
+
 .icons {
     margin-top: 18px;
+}
+
+.fa.fa-linkedin-square {
+    font-size: 38.5px;
+}
+
+.fa.fa-linkedin-square:hover {
+    opacity: .6;
 }
 
 h3, span {
@@ -66,8 +74,16 @@ h3, span {
         width: 5vw;
         display: flex;
         justify-content: row;
-        margin: 0;
         padding-right: 2px;
+        margin: 0;
+    }
+
+    body .linkedin {
+        margin-left: 8px;
+    }
+
+    body .github {
+        margin-right: 8px;
     }
     
     body .email {
