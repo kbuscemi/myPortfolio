@@ -9,7 +9,10 @@ a.brand-logo {
 
 nav ul a {
     font-size: 19px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: .12rem;
+    font-weight: 100;
+    /* font-family: 'Raleway', sans-serif; */
 }
 
 nav .nav-wrapper {

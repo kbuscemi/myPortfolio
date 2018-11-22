@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div>
             <NavBar/>
             <div>
-                <h3>Portfolio</h3>
+                <h3 className='portfolio'>portfolio</h3>
             </div>
             <div className='wrapper'>
                 <div className='top'>

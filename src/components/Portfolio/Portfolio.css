@@ -2,8 +2,9 @@ body {
     background-color: #FAFBFB;
 }
 
-h3 {
+.portfolio {
     text-align: center;
+    font-weight: 100;
 }
 
 .wrapper {
@@ -34,6 +35,10 @@ h3 {
     padding: 14px 0 5px 22px;    
 }
 
+.boxThree {
+    width: 28.8%;
+}
+
 .boxOne, .boxTwo, .boxThree, .boxFour, .boxFive, .boxSix {
     padding: 0 10px 0 10px;
     margin: 0 15px 0 10px;
@@ -53,14 +58,19 @@ h3 {
     padding: 10px 10px 0 10px;
 }
 
-.card-title.grey-text.text-darken-4.activator, p, h3 {
-    /* font-family: 'Raleway', sans-serif; */
+.card-title.grey-text.text-darken-4.activator, 
+p, 
+.portfolio {
     font-family: 'Dosis', sans-serif;
+}
+
+.card-title.grey-text.text-darken-4.activator,
+.portfolio {
+    letter-spacing: .12rem;
 }
 
 .card-title.grey-text.text-darken-4.activator {
     text-transform: uppercase;
-    letter-spacing: .12rem;
 }
 
 p {
