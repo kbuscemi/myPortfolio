@@ -34,7 +34,7 @@ h3 {
     padding: 14px 0 5px 22px;    
 }
 
-.boxOne, .boxTwo, .boxThree, .boxFour {
+.boxOne, .boxTwo, .boxThree, .boxFour, .boxFive, .boxSix {
     padding: 0 10px 0 10px;
     margin: 0 15px 0 10px;
     opacity: 1;        
@@ -54,7 +54,13 @@ h3 {
 }
 
 .card-title.grey-text.text-darken-4.activator, p, h3 {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+}
+
+.card-title.grey-text.text-darken-4.activator {
+    text-transform: uppercase;
+    letter-spacing: .12rem;
 }
 
 p {

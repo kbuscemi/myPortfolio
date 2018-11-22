@@ -8,12 +8,12 @@ const Portfolio = () => {
         <div>
             <NavBar/>
             <div>
-                <h3>Projects</h3>
+                <h3>Portfolio</h3>
             </div>
             <div className='wrapper'>
                 <div className='top'>
                     <div className='boxOne'>
-                            <Card header={<CardTitle reveal image={"https://i.imgur.com/zpSIzTP.png"} waves='light'/>}
+                            <Card header={<CardTitle reveal image={"https://i.imgur.com/A19NxKS.jpg?1"} waves='light'/>}
                                 title="Flight Tracker"
                                 
                                 reveal={
@@ -34,33 +34,65 @@ const Portfolio = () => {
                             </Card>
                     </div>
                     <div className='boxTwo'>
-                            <Card header={<CardTitle reveal image={"https://i.imgur.com/lijsUDU.png"}  waves='light'/>}
+                            <Card header={<CardTitle reveal image={"https://i.imgur.com/ORlz00H.jpg?1"}  waves='light'/>}
                                 title="Music DB"
                                 reveal={
                                     <p>
-                                        Acting as the IMDB but for the music industry, Music DB showcases individuals who helped bring songs to life.
-                                        Built with Node.js and MongoDB. Features the ability to login using your Facebook account and search
+                                        Acting as the IMDB the music industry, Music DB showcases individuals who helped bring songs to life.
+                                        Built with Node.js and MongoDB, MusicDB features the ability to login using your Facebook account and search
                                         millions of songs through Spotfiy's API.
                                         <br/>
                                         <br/>
                                         Express.js + Node.js + MongoDB + JavaScript
                                         <br/>
                                         <br/>
-                                        <a href='http://imusicdb.herokuapp.com' target='blank'><i className="fa fa-external-link"></i></a>
+                                        <a href='https://imusicdb.herokuapp.com' target='blank'><i className="fa fa-external-link"></i></a>
                                         <a href='https://github.com/kbuscemi/music-db' target='blank'><i className="fa fa-github"></i></a>
+                                    </p>
+                                }>
+                            </Card>
+                    </div>
+                    <div className='boxThree'>
+                            <Card header={<CardTitle reveal image={"https://i.imgur.com/JE2kZSy.jpg?4"}  waves='light'/>}
+                            title="DraftWhisperer"
+                                reveal={
+                                    <p>
+                                      A contact forum for an eSports gaming website. 
+                                        <br/>
+                                        <br/>
+                                        Wordpress, JavaScript, Jquery
+                                        <br/>
+                                        <br/>
+                                        <a href='https://www.draftwhisperer.com/' target='blank'><i className="fa fa-external-link"></i></a>
                                     </p>
                                 }>
                             </Card>
                     </div>
                 </div>
                 <div className='bottom'>
-                    <div className='boxThree'>
-                            <Card header={<CardTitle reveal image={"https://i.imgur.com/9PY6i0f.png"} waves='light'/>}
+                    <div className='boxFour'> 
+                            <Card header={<CardTitle reveal image={"https://i.imgur.com/IqbHSyw.jpg?5"} waves='light'/>}
+                            title="Luna Muse"
+                                reveal={
+                                    <p>
+                                        A website for Luna Muse
+                                        <br/>
+                                        <br/>
+                                        Wordpress
+                                        <br/>
+                                        <br/>
+                                        <a href='https://lunamuse.co/' target='blank'><i className="fa fa-external-link"></i></a>
+                                    </p>
+                                }>
+                            </Card>
+                    </div>
+                    <div className='boxFive'> 
+                            <Card header={<CardTitle reveal image={"https://i.imgur.com/Gmsv2CZ.jpg?1"} waves='light'/>}
                                 title="Read with Me"
                                 reveal={
                                     <p>
-                                        Read with Me is a platform to find books to create and compile reading book lists.
-                                        Features the ability to research book information.
+                                        Read with Me is a platform for individuals to find books that interest them.
+                                        Features the ability to research book information and compile reading book lists.
                                         <br/>
                                         <br/>
                                         Ruby + Ruby on Rails
