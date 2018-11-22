@@ -26,6 +26,15 @@ body {
     top: 40px;
 }
 
+.bottom,
+.boxFour {
+    margin-left: 1%;
+}
+
+.boxFive {
+    margin-left: 4%;
+}
+
 .top, .bottom {
     display: inherit;
     position: relative;
@@ -37,6 +46,10 @@ body {
 
 .boxThree {
     width: 28.8%;
+}
+
+.boxFour {
+    width: 28.6%;
 }
 
 .boxOne, .boxTwo, .boxThree, .boxFour, .boxFive, .boxSix {

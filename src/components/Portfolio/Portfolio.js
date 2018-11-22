@@ -15,7 +15,6 @@ const Portfolio = () => {
                     <div className='boxOne'>
                             <Card header={<CardTitle reveal image={"https://i.imgur.com/A19NxKS.jpg?1"} waves='light'/>}
                                 title="Flight Tracker"
-                                
                                 reveal={
                                     <p className='context'>
                                         Flight Tracker is a platform for users to log and track their upcoming flight itineraries. A Heroku hosted
@@ -38,7 +37,7 @@ const Portfolio = () => {
                                 title="Music DB"
                                 reveal={
                                     <p>
-                                        Acting as the IMDB the music industry, Music DB showcases individuals who helped bring songs to life.
+                                        Music DB showcases individuals who helped bring songs to life.
                                         Built with Node.js and MongoDB, MusicDB features the ability to login using your Facebook account and search
                                         millions of songs through Spotfiy's API.
                                         <br/>
@@ -71,8 +70,9 @@ const Portfolio = () => {
                 </div>
                 <div className='bottom'>
                     <div className='boxFour'> 
-                            <Card header={<CardTitle reveal image={"https://i.imgur.com/IqbHSyw.jpg?5"} waves='light'/>}
+                            <Card header={<CardTitle reveal image={"https://i.imgur.com/7uwffPf.jpg?2"} waves='light'/>}
                             title="Luna Muse"
+                            // <a href="https://imgur.com/7uwffPf"><img src="https://i.imgur.com/7uwffPf.jpg?2" title="source: imgur.com" /></a>
                                 reveal={
                                     <p>
                                         A website for Luna Muse
@@ -104,8 +104,8 @@ const Portfolio = () => {
                                 }>
                             </Card>
                     </div>
-                    <div className='boxFour'>
-                            <Card header={<CardTitle reveal image={"https://i.imgur.com/fRJp0Yl.png"} waves='light'/>}
+                    <div className='boxSix'>
+                            <Card header={<CardTitle reveal image={"https://i.imgur.com/xFUqlMw.jpg?1"} waves='light'/>}
                                 title="Mancala"
                                 reveal={
                                     <p>
