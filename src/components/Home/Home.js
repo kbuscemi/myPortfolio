@@ -8,7 +8,7 @@ const Home = () => {
             <div className='main'>
                 <div className='text'>Hello, I'm <span className='boldName'>Kaylee Buscemi.</span>
                     <br/>
-                    I'm a front-end web developer.
+                    I'm a front-end engineer.
                 </div>
                 <div className='viewBtn'>
                     <Link to='/portfolio'>

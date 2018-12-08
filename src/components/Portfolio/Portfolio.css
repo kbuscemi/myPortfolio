@@ -12,7 +12,8 @@ body {
     flex-direction: column;
 }
 
-.wrapper, .top {
+.wrapper, 
+.top {
     justify-content: center;
     align-items: center;
 
@@ -35,9 +36,9 @@ body {
     margin-left: 4%;
 }
 
-.top, .bottom {
+.top, 
+.bottom {
     display: inherit;
-    position: relative;
 }
 
 .card > .card-content {
@@ -49,18 +50,25 @@ body {
 }
 
 .boxFour {
-    width: 28.6%;
+    min-width: 28.6%;
 }
 
-.boxOne, .boxTwo, .boxThree, .boxFour, .boxFive, .boxSix {
+.boxOne, 
+.boxTwo, 
+.boxThree, 
+.boxFour, 
+.boxFive, 
+.boxSix {
     padding: 0 10px 0 10px;
-    margin: 0 15px 0 10px;
-    opacity: 1;        
+    margin: 0 59px 0 10px;
+    opacity: 1; 
+
 }
 
 .material-icons.right {
     margin-right: 15px;
     font-size: 25px;
+    position: static;
 }
 
 .material-icons.right:hover {
@@ -72,7 +80,7 @@ body {
 }
 
 .card-title.grey-text.text-darken-4.activator, 
-p, 
+.description, 
 .portfolio {
     font-family: 'Dosis', sans-serif;
 }
@@ -86,7 +94,7 @@ p,
     text-transform: uppercase;
 }
 
-p {
+.description {
     margin-top: 40px;
 }
 
@@ -100,6 +108,86 @@ p {
     margin-left: 5px;
 }
 
-.fa.fa-github:hover, .fa.fa-external-link:hover {
+.fa.fa-github:hover, 
+.fa.fa-external-link:hover {
     opacity: .6;
+}
+
+@media(max-width: 1025px) {
+    .card-title.grey-text.text-darken-4.activator {
+        text-align: left;
+    }
+    
+    .card-title.grey-text.text-darken-4.activator,
+    .description {
+        font-size: 14px;
+    }
+
+    .boxFour {
+        width: 42.6%;
+    }
+
+    .boxThree {
+        margin-left: 1%;
+        width: 41%;
+    }
+
+    i.right {
+        margin-left: 0;
+    }
+
+    .card .card-title {
+        font-size: 18px;
+    }
+
+    .description {
+        margin-top: 10%;
+    }
+
+    .material-icons.right {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .card > .card-content {
+        padding-left: 6%;
+    }
+}
+
+@media(max-width: 890px) {
+    .boxFour {
+        width: 45%;
+        margin-right: 6%;
+    }
+}
+
+@media(max-width: 768px) {
+    .card-title.grey-text.text-darken-4.activator {
+        font-size: 12px;
+    }
+
+    .boxThree {
+        width: 52%;
+    }
+}
+
+@media(max-width: 630px) {
+    .top,
+    .bottom {
+        display: block;
+    }
+
+    .boxOne, 
+    .boxTwo, 
+    .boxThree, 
+    .boxFour, 
+    .boxFive, 
+    .boxSix {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .boxFour {
+        margin-right: 0;
+    }
 }
