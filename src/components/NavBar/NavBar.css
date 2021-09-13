@@ -3,6 +3,11 @@ a.brand-logo {
     font-family: 'Julius Sans One', sans-serif;
 }
 
+.navigation {
+    height: 64px;
+    box-shadow: none;
+}
+
 .right .hide-on-med-and-down {
     padding-right: 37px;
 }
@@ -17,8 +22,7 @@ nav ul a {
 
 nav .nav-wrapper {
     background-color: #C2B9B8;
-    height: 113%;
-    padding-top: 4px;
+    height: 64px;
 }
 
 /* Mobile Formatting */

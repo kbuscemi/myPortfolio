@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 const NavBar = () => {
     return (
         <div>
-          <nav>
+          <nav className="navigation">
             <div className='nav-wrapper'>
               <div className='col s12'>
                 <a className='brand-logo'>KB</a>
