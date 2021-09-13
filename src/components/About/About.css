@@ -2,32 +2,46 @@ body {
     background-color: #FDFDFD;
 }
 
-.about {
-    display: flex;
-    flex-direction: row;
+.containerWrapper {
     justify-content: center;
-    margin-top: 115px;
-}
-
-.col.s6.picture {
-    padding-right: 28px;
-}
-
-.border {
+    margin: 5% auto 0;
     display: flex;
     flex-direction: row;
     width: 61vw;
     box-shadow: 8px 9px 17px;
-    max-height: 74vh;
+}
+
+.title {
+    margin: 19% auto 5%;
+}
+
+.col.s6.picture {
+    overflow-y: clip;
+    width: 50.5%;
+}
+
+.imgPic {
+    overflow: hidden;
+}
+
+.containerWrapper img {
+    border: 0;
+    width: 100%;
+}
+
+.containerWrapper img,
+.containerWrapper {
+    height: 74vh;
 }
 
 .col.s6.aboutMe {
     overflow-wrap: break-word;
-    padding-right: 20px;
+    padding: 0 1.5% 0 2.5%;
+    width: 49.5%;
 }
 
 .email {
-    margin-left: 20px;
+    margin-left: 4%;
 }
 
 .github {
@@ -35,74 +49,150 @@ body {
 }
 
 .icons {
-    margin-top: 18px;
+    margin-top: 1%;
 }
 
-.fa.fa-linkedin-square {
-    font-size: 38.5px;
+.containerWrapper .fa.fa-github {
+    font-size: 31px;
 }
 
-.fa.fa-linkedin-square:hover {
+.containerWrapper .fa.fa-linkedin-square {
+    font-size: 28.5px;
+}
+
+.containerWrapper .fa.fa-linkedin-square:hover {
     opacity: .6;
 }
 
-h3, span {
+.title,
+.context {
     font-family: 'Raleway', sans-serif;
 }
 
-/* Mobile Formatting */
+.icons a {
+    color: black;
+}
+
+@media(max-width: 1200px) {
+    .title {
+        font-size: 32px;
+    }
+
+    .containerWrapper .fa.fa-github {
+        font-size: 29px;
+    }
+    
+    .containerWrapper .fa.fa-linkedin-square {
+        font-size: 26.5px;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
 
-    body .myPic {
-        width: 75vw;
-        height: 82vh;
-    }
-
-    body .about {
+    .containerWrapper {
         margin-top: 40px;
     }
 
-    body .col.s6.picture {
+    .col.s6.picture {
         padding: 0;
-        width: 10vw;
-        right: 20px;
+        width: 100%;
+        z-index: 0;
+        position: relative;
         opacity: .3;
     } 
 
-    body .icons, .github, .linkedin {
-        width: 5vw;
-        display: flex;
-        justify-content: row;
-        padding-right: 2px;
+    .col.s6.aboutMe {
+        padding: 0 8.5% 0;
+        width: 65%;
+        overflow: auto;
+        z-index: 99999;
+        position: absolute;
+    }
+
+    .icons, 
+    .github, 
+    .linkedin {
         margin: 0;
     }
 
-    body .linkedin {
-        margin-left: 8px;
+    .containerWrapper .fa.fa-linkedin-square {
+        margin-left: .5%;
     }
 
-    body .github {
+    .containerWrapper .fa.fa-github {
         margin-right: 8px;
     }
     
-    body .email {
-      visibility: hidden;
-    }
-
-    body .border {
+    .border {
         box-shadow: none;
     }
 
-    body h3 {
+    .title {
         font-size: 26px;
         text-align: center;
     }
 
-    body span {
+    .context {
         font-weight: 500;
-        text-align: center;
-        font-size: 15px;
+        text-align: left;
+        font-size: 16px;
     }
 
+    .email {
+        margin-left: 3%;
+        vertical-align: text-bottom;
+    }
+}
+
+@media(max-width: 480px) {
+    
+    .containerWrapper {
+        width: 91vw;
+    }
+
+    .col.s6.aboutMe {
+        padding: 0 1.5% 0;
+        width: 82%;
+    }
+
+    .title {
+        margin: 26% auto 5%;
+    }
+
+    .containerWrapper .fa.fa-linkedin-square {
+        font-size: 25.5px;
+    }
+   
+    .containerWrapper .fa.fa-linkedin-square,
+    .containerWrapper .fa.fa-github,
+    .email {
+        vertical-align: bottom;
+    }
+
+    .containerWrapper .fa.fa-github {
+       font-size: 27px;
+    }
+}
+
+@media(max-width: 321px) {
+
+    .title {
+        margin: 10% auto 5%;
+    }
+
+    .context {
+        font-size: 14px;
+    }
+
+    .containerWrapper .fa.fa-linkedin-square {
+        font-size: 22.5px;
+    }
+
+    .containerWrapper .fa.fa-github {
+       font-size: 24px;
+    }
+
+    .email {
+        font-size: 12px;
+    }
 }

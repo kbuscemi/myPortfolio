@@ -25,21 +25,35 @@ nav .nav-wrapper {
     height: 64px;
 }
 
-/* Mobile Formatting */
 
 @media only screen and (min-width: 320px) {
     body nav > .nav-wrapper {
        width: 100%;
     }
 
+    body .brand-logo,
+    nav ul a  {
+        font-size: 16px;
+    }
+
     body .brand-logo {
-        font-size: 20px;
         padding-left: 44px;
         left: 0px;
     }
 
     body .hide-on-med-and-down {
         display: inline !important;
+    }
+}
+
+@media(max-width: 320px) {
+    body .brand-logo,
+    nav ul a  {
+        font-size: 14px;
+    }
+
+    nav ul a {
+        padding: 0 11px;
     }
 }
 

@@ -88,7 +88,7 @@ body {
     margin-top: 40px;
 }
 
-.fa.fa-github {
+.porftolioContainer .fa.fa-github {
     font-size: 40px;
 }
 
@@ -98,7 +98,7 @@ body {
     margin-left: 5px;
 }
 
-.fa.fa-github:hover, 
+.porftolioContainer .fa.fa-github:hover, 
 .fa.fa-external-link:hover {
     opacity: .6;
 }
@@ -158,7 +158,7 @@ body {
         font-size: 29px;
     }
 
-    .fa.fa-github {
+    .porftolioContainer .fa.fa-github {
         font-size: 33px;
     }
 }
