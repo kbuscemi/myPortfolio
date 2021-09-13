@@ -19,7 +19,7 @@ const About = () => {
                         opportunities and challenges that are meaningful to me both personally and professionally.
                         <br/>
                         <br/>
-                        When I'm not coding, I'm either out in nature with my dog or I'm a cafe drinking coffee and reading a book.
+                        When I'm not coding, I'm either out in nature with my dog or I'm at a cafe drinking coffee and reading a book.
                         <br/>
                         <br/>
                         If you would like to get in touch, feel free to reach out.
