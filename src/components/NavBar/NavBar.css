@@ -12,27 +12,33 @@ a.brand-logo {
     padding-right: 37px;
 }
 
-nav ul a {
+.navigation ul a {
     font-size: 19px;
     font-family: 'Dosis', sans-serif;
     letter-spacing: .12rem;
     font-weight: 100;
-    /* font-family: 'Raleway', sans-serif; */
 }
 
-nav .nav-wrapper {
+.navigation .nav-wrapper {
     background-color: #C2B9B8;
     height: 64px;
 }
 
+@media(max-width: 480px) {
+    .navigation,
+    .navigation .nav-wrapper {
+        height: 56px;
+    }
+}
+
 
 @media only screen and (min-width: 320px) {
-    body nav > .nav-wrapper {
+    .navigation .nav-wrapper {
        width: 100%;
     }
 
     body .brand-logo,
-    nav ul a  {
+    .navigation ul a  {
         font-size: 16px;
     }
 
@@ -48,11 +54,11 @@ nav .nav-wrapper {
 
 @media(max-width: 320px) {
     body .brand-logo,
-    nav ul a  {
+    .navigation ul a  {
         font-size: 14px;
     }
 
-    nav ul a {
+    .navigation ul a {
         padding: 0 11px;
     }
 }
